@@ -1,0 +1,30 @@
+ /* Basic styling for the navbar */
+ ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    background-color: #f2f2f2;
+    text-align: center;
+    justify-items: center;
+    cursor: pointer;
+    border: 2px solid black;
+  }
+
+  /* Styling for the individual navbar items */
+  li.nav-item {
+    padding: 10px 206px;
+    
+    border: 1px solid green;
+    transition: background-color 0.3s;
+  }
+
+  /* Additional styles for the active item */
+  li.active {
+      /* border: solid red; */
+    background-color: #55aaff;
+    color: white;
+  }
